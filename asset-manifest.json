@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ldulivo/cristian_facello/static/css/main.e79c39c1.css",
+    "main.js": "/ldulivo/cristian_facello/static/js/main.bcdcecf2.js",
+    "static/js/787.47c4fa58.chunk.js": "/ldulivo/cristian_facello/static/js/787.47c4fa58.chunk.js",
+    "static/media/png": "/ldulivo/cristian_facello/static/media/c2237b45e00f6f63b6dbb8235b9fe327.f2603f4304682193ed10.png",
+    "static/media/Fontspring-DEMO-rodley-semibold.otf": "/ldulivo/cristian_facello/static/media/Fontspring-DEMO-rodley-semibold.a0f23a9fc02e7f6d3f8d.otf",
+    "static/media/Fontspring-DEMO-rodley-light.otf": "/ldulivo/cristian_facello/static/media/Fontspring-DEMO-rodley-light.c6a196b807abad3779b3.otf",
+    "static/media/Fontspring-DEMO-rodley-regular.otf": "/ldulivo/cristian_facello/static/media/Fontspring-DEMO-rodley-regular.57643f428572bbde0d04.otf",
+    "static/media/Fontspring-DEMO-rodley-bold.otf": "/ldulivo/cristian_facello/static/media/Fontspring-DEMO-rodley-bold.8bac16a884ee0abfdabd.otf",
+    "static/media/Fontspring-DEMO-rodley-thin.otf": "/ldulivo/cristian_facello/static/media/Fontspring-DEMO-rodley-thin.8b9565ece5761a0b172d.otf",
+    "index.html": "/ldulivo/cristian_facello/index.html",
+    "main.e79c39c1.css.map": "/ldulivo/cristian_facello/static/css/main.e79c39c1.css.map",
+    "main.bcdcecf2.js.map": "/ldulivo/cristian_facello/static/js/main.bcdcecf2.js.map",
+    "787.47c4fa58.chunk.js.map": "/ldulivo/cristian_facello/static/js/787.47c4fa58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e79c39c1.css",
+    "static/js/main.bcdcecf2.js"
+  ]
+}
