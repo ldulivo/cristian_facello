@@ -1,0 +1,33 @@
+.Card {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(5px);
+  width: 75vw;
+  max-width: 300px;
+  height: 400px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 3px #0000000d, 
+  0px 0px 7.2px #00000012, 
+  0px 0px 13.6px #00000017, 
+  0px 0px 24.3px #0000001c, 
+  0px 0px 45.5px #00000021, 
+  0px 0px 109px #0000002e;
+}
+
+.Card-blue {
+  background-color: rgba(0, 166, 255, 0.3);
+}
+
+.Card-orange {
+  background-color: rgba(255, 59, 0, 0.37);
+}
+
+.Card-pink {
+  background-color: rgba(255, 0, 0, 0.23);
+}
+
+.Card-white {
+  background-color: rgba(255, 255, 255, 0.23);
+}

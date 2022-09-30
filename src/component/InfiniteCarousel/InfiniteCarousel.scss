@@ -1,0 +1,31 @@
+.InfiniteCarousel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+
+  &-track {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(250px * 8);
+    animation: Header-animation-scroll infinite 15s linear;
+    
+    > * {
+      width: 250px;
+      margin-right: 20px;
+      padding: 20px;
+      border-radius: 15px;
+    }
+  }
+
+}
+
+@keyframes Header-animation-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 4));
+  }
+}
