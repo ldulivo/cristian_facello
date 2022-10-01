@@ -5,7 +5,7 @@ export const CurveSeparator = ({ SVGstyle = '' }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={SVGstyle}
     >
-      <g fill-rule="evenodd" transform="matrix(-1 0 0 1 1920 0)">
+      <g fillRule="evenodd" transform="matrix(-1 0 0 1 1920 0)">
           <path
               d="M0,57.46875 C203.364583,135.217754 494.835938,156.564108 874.414062,121.507813 C1192.61198,-13.9827666 1541.14063,-35.3291208 1920,57.46875 L1920,207 L0,207 L0,57.46875 Z"
               opacity=".3"></path>
