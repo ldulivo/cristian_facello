@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cristian_facello/static/css/main.2978a04d.css",
+    "main.css": "/cristian_facello/static/css/main.be6c3835.css",
     "main.js": "/cristian_facello/static/js/main.260f22a3.js",
     "static/js/787.47c4fa58.chunk.js": "/cristian_facello/static/js/787.47c4fa58.chunk.js",
     "static/media/cardTermoSolar.jpg": "/cristian_facello/static/media/cardTermoSolar.e318fb83eb7a49405865.jpg",
@@ -15,12 +15,12 @@
     "static/media/backgroundTrayectoria.jpg": "/cristian_facello/static/media/backgroundTrayectoria.7d097a5c990e5f2becc1.jpg",
     "static/media/cardAires.jpg": "/cristian_facello/static/media/cardAires.aa0c925a1f83113d659e.jpg",
     "index.html": "/cristian_facello/index.html",
-    "main.2978a04d.css.map": "/cristian_facello/static/css/main.2978a04d.css.map",
+    "main.be6c3835.css.map": "/cristian_facello/static/css/main.be6c3835.css.map",
     "main.260f22a3.js.map": "/cristian_facello/static/js/main.260f22a3.js.map",
     "787.47c4fa58.chunk.js.map": "/cristian_facello/static/js/787.47c4fa58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2978a04d.css",
+    "static/css/main.be6c3835.css",
     "static/js/main.260f22a3.js"
   ]
 }
