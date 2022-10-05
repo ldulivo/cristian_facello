@@ -58,12 +58,6 @@ section {
   padding: 0 10px;
 }
 
-.relleno {
-  width: 100%;
-  height: 200vh;
-  background-color: #495057;
-}
-
 .btn {
   cursor: pointer;
   width: 192px;
@@ -77,4 +71,5 @@ section {
   background: linear-gradient(240deg, #543ab7 0%, #00acc1 100%);
   color: var(--text-white);
   margin: 20px 0;
+  text-decoration: none;
 }

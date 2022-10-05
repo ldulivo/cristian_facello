@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { parallaxToDown, parallaxToUp, parallaxUl } from '.'
+import { parallaxToDown, parallaxToUp } from '.'
+import { CurveSeparator } from '../svg'
 /* import { parallaxEffect } from '.' */
 import './Parallax.scss'
 
@@ -7,7 +8,6 @@ const Parallax = ({ children }) => {
   const mainParallax = useRef()
   const previousScroll = useRef(0)
   const ulParallax = useRef()
-  const [refreshParallax, setRefreshParallax] = useState(0)
   const [styleParallax, setStyleParallax] = useState([
     {
       bottom: 0,
@@ -94,8 +94,7 @@ const Parallax = ({ children }) => {
       </section>
       <ul
         ref={ulParallax}
-        className='Parallax-background'
-        >
+        className='Parallax-background'>
           {
             styleParallax.map((li, index) =>
               <li
@@ -108,10 +107,10 @@ const Parallax = ({ children }) => {
                   transform: `rotate(${li.rotate}deg)`,
                   borderRadius: `${li.radius}px`
                 }}
-              ></li>
-            )
+              ></li>)
           }
       </ul>
+      <CurveSeparator />
     </div>
   )
 }

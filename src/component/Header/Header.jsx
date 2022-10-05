@@ -1,5 +1,3 @@
-/* Más de 20 años brindando compromiso, seriedad y calidad a mis clientes */
-/* Climatización y Mantenimiento */
 import './Header.scss'
 import Carousel from '../Carousel'
 import { Waves } from '../svg'
