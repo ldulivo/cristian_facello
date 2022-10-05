@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cristian_facello/static/css/main.da65545b.css",
-    "main.js": "/cristian_facello/static/js/main.4ecad4fa.js",
+    "main.css": "/cristian_facello/static/css/main.9eea9f62.css",
+    "main.js": "/cristian_facello/static/js/main.b677727b.js",
     "static/js/787.47c4fa58.chunk.js": "/cristian_facello/static/js/787.47c4fa58.chunk.js",
     "static/media/Fontspring-DEMO-rodley-semibold.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-semibold.a0f23a9fc02e7f6d3f8d.otf",
     "static/media/Fontspring-DEMO-rodley-light.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-light.c6a196b807abad3779b3.otf",
@@ -9,12 +9,12 @@
     "static/media/Fontspring-DEMO-rodley-bold.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-bold.8bac16a884ee0abfdabd.otf",
     "static/media/Fontspring-DEMO-rodley-thin.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-thin.8b9565ece5761a0b172d.otf",
     "index.html": "/cristian_facello/index.html",
-    "main.da65545b.css.map": "/cristian_facello/static/css/main.da65545b.css.map",
-    "main.4ecad4fa.js.map": "/cristian_facello/static/js/main.4ecad4fa.js.map",
+    "main.9eea9f62.css.map": "/cristian_facello/static/css/main.9eea9f62.css.map",
+    "main.b677727b.js.map": "/cristian_facello/static/js/main.b677727b.js.map",
     "787.47c4fa58.chunk.js.map": "/cristian_facello/static/js/787.47c4fa58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da65545b.css",
-    "static/js/main.4ecad4fa.js"
+    "static/css/main.9eea9f62.css",
+    "static/js/main.b677727b.js"
   ]
 }
