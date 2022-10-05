@@ -29,9 +29,11 @@
 }
 
 :root {
+  --text-white: #fff;
   --primary: #f8f9fa;
   --secondary: #495057;
   --info: #f07622;
+  --warning: #07B3F9;
 }
 
 * {
@@ -47,11 +49,32 @@
   flex-direction: column;
   align-items: center;
   color: var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--text-white);
 }
 
 section {
   width: 100%;
   max-width: 1170px;
   padding: 0 10px;
+}
+
+.relleno {
+  width: 100%;
+  height: 200vh;
+  background-color: #495057;
+}
+
+.btn {
+  cursor: pointer;
+  width: 192px;
+  height: 42px;
+  padding: 14px 26px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ffffff4d;
+  box-shadow: 2px 3px 7px #00000099;
+  line-height: 100%;
+  background: linear-gradient(240deg, #543ab7 0%, #00acc1 100%);
+  color: var(--text-white);
+  margin: 20px 0;
 }

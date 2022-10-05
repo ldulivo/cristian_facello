@@ -1,83 +1,34 @@
-import { useEffect, useState } from 'react'
-import { changeNextArray, changePreviousArray } from '.'
-import { Arrow } from '../svg'
+import { useEffect, useRef, useState } from 'react'
+import { styleToCarousel } from '.'
 import './Carousel.scss'
-const Carousel = ({ data = [] }) => {
-  const [dataCarousel, setdataCarousel] = useState([])
+const Carousel = ({ children }) => {
+  const [timeNextCard, setTimeNextCard] = useState(0)
   const [currentCard, setCurrentCard] = useState(0)
-  const maxCard = data.length - 1
-  
-  const nextCard = () => {
-    setdataCarousel(changeNextArray(dataCarousel))
-    setCurrentCard(currentCard + 1)
-  }
-  const previousCard = () => {
-    setdataCarousel(changePreviousArray(dataCarousel))
-    setCurrentCard(currentCard - 1)
-  }
-
-  useEffect(() => {
-    if (currentCard > maxCard) setCurrentCard(0)
-    if (currentCard < 0) setCurrentCard(maxCard)
-  }, [currentCard, dataCarousel, maxCard])
-
-  useEffect(() => {
-    setdataCarousel(data)
-  }, [data])
+  const loadCarrousel = useRef(0)
+  const maxCard = children.length - 1
+  /* console.log('children', children[0]) */
 
   useEffect(() => {
     const interval = setInterval(() => {
-      nextCard()
-    }, 3000)
+      setTimeNextCard((timeNextCard + 1 > 4) ? 0: timeNextCard + 1)
+    }, 1000);
+
+    if (loadCarrousel.current === 0) {
+      loadCarrousel.current = 1
+    } else {
+      if(timeNextCard === 0) {
+        setCurrentCard(currentCard + 1 > maxCard ? 0 : currentCard + 1)
+      }
+    }
     return () => clearInterval(interval)
-  })
-
-  if (data.length > 0) {
-    return (
-      <div className="Carousel">
-        <div className="Carousel-content">
-          {
-            dataCarousel.map((card, index) => {
-              return (
-                <span key={index} style={{transform: 'translateX('+(card.transform * 330) + 'px)', opacity: card.opacity, zIndex: card.zindex}}>
-                  <div className="Carousel-img">
-                    <img src={card.img} alt="Logo Cristian Facello" />
-                  </div>
-                  <ul>
-                    <li className='Carousel-h1'>{card.h1}</li>
-                    <li>{card.li1}</li>
-                    <li>{card.li2}</li>
-                    <li>{card.li3}</li>
-                  </ul>
-                </span>
-              )
-            })
-          }
-        </div>
-        <div className="Carousel-dot">
-          {
-            data.map((dot,index) => {
-              return (
-                <span
-                  className={`${index === currentCard ? 'Carousel-dot-active' : ''}`}
-                  key={index}></span>
-              )
-            })
-          }
-        </div>
-        <div className="Carousel-button">
-          <button onClick={() => previousCard()}>
-            <Arrow direction='left' SVGstyle='Carousel-button-svg'/>
-          </button>
-          <button onClick={() => nextCard()}>
-            <Arrow direction='right' SVGstyle='Carousel-button-svg'/>
-          </button>
-        </div>
+  }, [timeNextCard])
+  return (
+    <div className='Carousel'>
+      <div className={`Carousel-content ${styleToCarousel(timeNextCard)}`}>
+        {children[currentCard]}
       </div>
-    )
-  }
-
-  return null
+    </div>
+  )
 }
 
 export default Carousel
