@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/cristian_facello/static/css/main.9eea9f62.css",
-    "main.js": "/cristian_facello/static/js/main.b677727b.js",
+    "main.css": "/cristian_facello/static/css/main.2978a04d.css",
+    "main.js": "/cristian_facello/static/js/main.260f22a3.js",
     "static/js/787.47c4fa58.chunk.js": "/cristian_facello/static/js/787.47c4fa58.chunk.js",
+    "static/media/cardTermoSolar.jpg": "/cristian_facello/static/media/cardTermoSolar.e318fb83eb7a49405865.jpg",
+    "static/media/cardHeladeras.jpg": "/cristian_facello/static/media/cardHeladeras.9b4ba89e06c0e658b2a7.jpg",
+    "static/media/cardCamaraFrio.jpg": "/cristian_facello/static/media/cardCamaraFrio.c4b6bb14c63c18837819.jpg",
+    "static/media/cardElectricidad.jpg": "/cristian_facello/static/media/cardElectricidad.b05a0e5a2e2dc42e0a6f.jpg",
     "static/media/Fontspring-DEMO-rodley-semibold.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-semibold.a0f23a9fc02e7f6d3f8d.otf",
     "static/media/Fontspring-DEMO-rodley-light.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-light.c6a196b807abad3779b3.otf",
     "static/media/Fontspring-DEMO-rodley-regular.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-regular.57643f428572bbde0d04.otf",
     "static/media/Fontspring-DEMO-rodley-bold.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-bold.8bac16a884ee0abfdabd.otf",
     "static/media/Fontspring-DEMO-rodley-thin.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-thin.8b9565ece5761a0b172d.otf",
+    "static/media/backgroundTrayectoria.jpg": "/cristian_facello/static/media/backgroundTrayectoria.7d097a5c990e5f2becc1.jpg",
+    "static/media/cardAires.jpg": "/cristian_facello/static/media/cardAires.aa0c925a1f83113d659e.jpg",
     "index.html": "/cristian_facello/index.html",
-    "main.9eea9f62.css.map": "/cristian_facello/static/css/main.9eea9f62.css.map",
-    "main.b677727b.js.map": "/cristian_facello/static/js/main.b677727b.js.map",
+    "main.2978a04d.css.map": "/cristian_facello/static/css/main.2978a04d.css.map",
+    "main.260f22a3.js.map": "/cristian_facello/static/js/main.260f22a3.js.map",
     "787.47c4fa58.chunk.js.map": "/cristian_facello/static/js/787.47c4fa58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eea9f62.css",
-    "static/js/main.b677727b.js"
+    "static/css/main.2978a04d.css",
+    "static/js/main.260f22a3.js"
   ]
 }
