@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cristian_facello/static/css/main.cb4ecf73.css",
-    "main.js": "/cristian_facello/static/js/main.caaf6540.js",
+    "main.css": "/cristian_facello/static/css/main.532950ac.css",
+    "main.js": "/cristian_facello/static/js/main.bf9ec368.js",
     "static/js/787.47c4fa58.chunk.js": "/cristian_facello/static/js/787.47c4fa58.chunk.js",
     "static/media/cardHeladeras.jpg": "/cristian_facello/static/media/cardHeladeras.9b4ba89e06c0e658b2a7.jpg",
     "static/media/cardCamaraFrio.jpg": "/cristian_facello/static/media/cardCamaraFrio.c4b6bb14c63c18837819.jpg",
@@ -13,12 +13,12 @@
     "static/media/Fontspring-DEMO-rodley-thin.otf": "/cristian_facello/static/media/Fontspring-DEMO-rodley-thin.8b9565ece5761a0b172d.otf",
     "static/media/backgroundTrayectoria.jpg": "/cristian_facello/static/media/backgroundTrayectoria.7d097a5c990e5f2becc1.jpg",
     "index.html": "/cristian_facello/index.html",
-    "main.cb4ecf73.css.map": "/cristian_facello/static/css/main.cb4ecf73.css.map",
-    "main.caaf6540.js.map": "/cristian_facello/static/js/main.caaf6540.js.map",
+    "main.532950ac.css.map": "/cristian_facello/static/css/main.532950ac.css.map",
+    "main.bf9ec368.js.map": "/cristian_facello/static/js/main.bf9ec368.js.map",
     "787.47c4fa58.chunk.js.map": "/cristian_facello/static/js/787.47c4fa58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4ecf73.css",
-    "static/js/main.caaf6540.js"
+    "static/css/main.532950ac.css",
+    "static/js/main.bf9ec368.js"
   ]
 }
