@@ -1,0 +1,37 @@
+.Dialog {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 310px;
+  height: 260px;
+  background: linear-gradient(90deg, #ffffffb5, #fffffff5, #ffffffb5);
+
+  &::backdrop {
+    background-color: #00000047;
+    backdrop-filter: blur(1.5px);
+    z-index: 200;
+    overflow: hidden;
+  }
+
+  > h3,
+  > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.Dialog-active {
+  display: flex;
+}

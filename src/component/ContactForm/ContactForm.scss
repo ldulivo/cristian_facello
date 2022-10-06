@@ -1,0 +1,93 @@
+.ContactForm {
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactForm-content {
+  width: 100%;
+  max-width: 574px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 30px 20px;
+  border-radius: 15px;
+  background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);
+
+  h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--text-white);
+    margin-bottom: 35px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background: var(--text-white);
+    padding: 5px 15px;
+    border-radius: 15px;
+
+    > svg {
+      width: 30px;
+    }
+
+    > input,
+    > textarea {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: transparent;
+    }
+
+    > input {
+      width: 100%;
+      border: none;
+      padding: 5px;
+      outline: none;
+      color: var(--secondary);
+
+      &::placeholder {
+        color: var(--secondary);
+      }
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      margin: 0;
+      -webkit-appearance: none;
+      -moz-appearance: textfield;
+    }
+
+    > textarea {
+      resize: none;
+      width: 100%;
+      height: 185px;
+      outline: none;
+      border: none;
+      color: var(--secondary);
+
+      &::-moz-placeholder,
+      &::-webkit-input-placeholder,
+      &:-moz-placeholder,
+      &::placeholder {
+        color: var(--secondary);
+      }
+    }
+  }
+  
+  .warning {
+    background: var(--warning);
+  }
+}

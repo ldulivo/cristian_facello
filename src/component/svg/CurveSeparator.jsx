@@ -1,7 +1,8 @@
 export const CurveSeparator = ({ SVGstyle = '' }) => {
   return (
     <svg
-      viewBox="0 0 1920 217"
+      /* viewBox="0 0 1920 217" */
+      viewBox="0 0 1920 167"
       xmlns="http://www.w3.org/2000/svg"
       className={SVGstyle}
     >

@@ -24,19 +24,18 @@ const Header = () => {
             </ul>
           </div>
           <div>
-            <h2>Aires acondicionados</h2>
+            <h2>Heladeras familiares</h2>
             <ul>
-              <li>Instalación.</li>
               <li>Reparación.</li>
               <li>Presupuestos.</li>
             </ul>
           </div>
           <div>
-            <h2>Mantenimiento en general</h2>
+            <h2>Electricidad</h2>
             <ul>
-              <li>Electricidad y tableros eléctricos, fugas, etc.</li>
-              <li>Plomero gasista, Termo solares, chequeos.</li>
-              <li>Soldadura.</li>
+              <li>Tableros</li>
+              <li>Fugas</li>
+              <li>Chequeos</li>
             </ul>
           </div>
         </Carousel>

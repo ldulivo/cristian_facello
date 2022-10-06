@@ -86,7 +86,7 @@ const Parallax = ({ children }) => {
     return () => {
       window.removeEventListener('scroll', parallaxEffect)
     }
-  }, [])
+  })
   return (
     <div ref={mainParallax} className="Parallax">
       <section className="Parallax-Content">
