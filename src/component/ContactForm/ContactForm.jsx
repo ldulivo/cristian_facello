@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import Spinner from '../Spinner'
 import { Email, Message, Person, Telephone } from '../svg'
 import './ContactForm.scss'
 
 const ContactForm = () => {
+  const [spinnerActive, setSpinnerActive] = useState(false)
   const [speakWithUs, setSpeakWithUs] = useState({
     nombre: {text:'', isCorrect: true},
     telefono: {text:'', isCorrect: true},
@@ -61,6 +63,7 @@ const ContactForm = () => {
       return
     }
     
+    setSpinnerActive(true)
     event.target.submit('submit')
   }
 
@@ -130,6 +133,11 @@ const ContactForm = () => {
           <input type="hidden" name="_subject" value={`Consulta WEB - ${speakWithUs.nombre}`}/>
         </form>
       </div>
+      {
+        (spinnerActive)
+          ? <Spinner />
+          : null
+      }
     </section>
   )
 }
