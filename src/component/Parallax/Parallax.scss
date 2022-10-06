@@ -51,7 +51,8 @@
         max-width: 500px;
         height: 300px;
         border-radius: 15px;
-        box-shadow: 2px 3px 7px #00000099;
+        /* box-shadow: 2px 3px 7px #00000099; */
+        box-shadow: 0 2px 8px #0e131812;
         border: 1px solid #ffffff4d;
         padding: 20px;
         text-align: center;
@@ -59,18 +60,33 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         overflow: hidden;
         backdrop-filter: blur(5px);
-        background: linear-gradient(90deg, #ffffff54, #ffffff40);
+        background: linear-gradient(90deg, #d7d4d454, #99939340);
 
-        > img {
+        .text-box {
+          width: 60%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        > .Parallax-man {
           position: absolute;
-          height: 130%;
-          top: -13px;
-          left: -67px;
-          opacity: 0.2;
-          z-index: -1;
+          width: 172px;
+          top: 150px;
+          right: 20px;
+          z-index: 3;
+        }
+
+        .Parallax-air-conditioner {
+          position: absolute;
+          width: 165px;
+          right: 11px;
+          z-index: 2;
         }
       }
 
@@ -85,4 +101,61 @@
         font-weight: 100;
       }
     }
+}
+
+@media (max-width: 500px) {
+  .Parallax {
+
+    > section {
+
+      h2 {
+        font-size: 26px;
+      }
+
+      h3 {
+        font-size: 14px;
+      }
+
+      .box {
+        
+        .Parallax-man {
+          width: 143px;
+          top: 166px;
+        }
+
+        .Parallax-air-conditioner {
+          width: 148px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .Parallax {
+
+    > section {
+
+      h2 {
+        font-size: 26px;
+      }
+
+      h3 {
+        font-size: 14px;
+      }
+
+      .box {
+        
+        .Parallax-man {
+          width: 123px;
+          top: 182px;
+        }
+
+        .Parallax-air-conditioner {
+          width: 120px;
+          top: 60px;
+        }
+      }
+    }
+  }
 }

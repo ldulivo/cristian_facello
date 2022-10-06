@@ -72,7 +72,8 @@ const ContactForm = () => {
       <div className="ContactForm-content" id='ContactFormContent'>
         <h2>Contáctame</h2>
         <form
-          action="https://formsubmit.co/ldulivo@gmail.com"
+          /* action="https://formsubmit.co/ldulivo@gmail.com" */
+          action="https://formsubmit.co/2danisy1cristian@gmail.com"
           method="POST"
           onSubmit={handleSubmit}
         >

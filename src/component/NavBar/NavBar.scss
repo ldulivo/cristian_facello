@@ -31,11 +31,12 @@
     a,
     a:visited,
     a:active {
-      color: var(--text-white);
       text-decoration: none;
     }
-
+    
+    span,
     a {
+      color: var(--text-white);
 
       > svg {
         width: 28px;
@@ -93,6 +94,7 @@
         width: 80px;
       }
 
+      span,
       a {
   
         > svg {
