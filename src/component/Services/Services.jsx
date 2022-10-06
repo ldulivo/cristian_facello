@@ -7,7 +7,7 @@ import { CurveSeparator } from '../svg'
 
 const Services = () => {
   return (
-    <div className="Services">
+    <div className="Services" id='Services'>
 
       <h2>Servicios</h2>
       <section>

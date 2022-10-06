@@ -4,6 +4,7 @@ import backgroundTrayectoria from './assets/img/backgroundTrayectoria.jpg'
 import Services from './component/Services';
 import ContactForm from './component/ContactForm';
 import Dialog from './component/Dialog';
+import NavBar from './component/NavBar';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <ContactForm />
       <Dialog />
+      <NavBar />
     </div>
   );
 }

@@ -2,10 +2,12 @@ import './Header.scss'
 import Carousel from '../Carousel'
 import { Waves } from '../svg'
 
+const logotipoTransparent = `${process.env.PUBLIC_URL}/static/CLF_logotipo_transparent.png`
 const Header = () => {
   return (
-    <section className="Header">
+    <section className="Header" id='inicio'>
       <section>
+        <img src={logotipoTransparent} alt="Logotipo" className="Header-logotipo" />
         <h1>Cristian Facello</h1>
         <Carousel>
           <div>
