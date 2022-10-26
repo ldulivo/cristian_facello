@@ -1,14 +1,8 @@
-# eCommerce Oracle ONE
+# Landing Page
 
 Look at the finished project in the following [link](https://ldulivo.github.io/cristian_facello/).
 
-# Project created in ReactJs
-
-## The following Hooks were used
-
-- useState.
-- useEffect.
-- useRef
+Project created in ReactJs y Sass
 
 ## The following libraries were used
 
